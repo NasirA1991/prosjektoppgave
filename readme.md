@@ -1,6 +1,6 @@
 # Orange foods
 
-**Hjemmeside laget av Oblig gruppe 4**
+**Hjemmeside laget av**
 
 - Kristian Sørlie
 - Hirra Gondal
