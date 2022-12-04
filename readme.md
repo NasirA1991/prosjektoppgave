@@ -19,7 +19,7 @@
 
 ## WAVE Web Accessibility Evaluation Tool
 
-![alt text](wave-web-accessibility.png)
+https://wave.webaim.org/report#/https://nasira1991.github.io/prosjektoppgave/index.html
 
 
 
