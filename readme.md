@@ -16,7 +16,7 @@
 
 [Google Guidelines for Dark Material Design (*hjalp med å finne riktig fargekombinasjon*)](https://material.io/design/color/dark-theme.html)
 
-[W3Schools - generell hjelp med CSS](https://w3schools.com
+[W3Schools](https://w3schools.com
 
 
 ## WAVE Web Accessibility Evaluation Tool
