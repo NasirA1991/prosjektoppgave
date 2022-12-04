@@ -86,7 +86,8 @@ main .topp-tekst {
   align-self: flex-start;
   font-size: 2.5em;
   margin-top: -2em;
-  text-decoration: underline;
+  font-weight: 600;
+
 }
 
 main .img-events {
@@ -220,7 +221,7 @@ main .heading-booking {
   align-self: flex-start;
   font-size: 2.5em;
   margin-top: -2em;
-  text-decoration: underline;
+  font-weight: 600;
 }
 
 main .infotext {
