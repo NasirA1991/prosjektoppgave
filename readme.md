@@ -1,4 +1,4 @@
-# Orange foods - Oblig 1
+# Orange foods
 
 **Hjemmeside laget av Oblig gruppe 4**
 
