@@ -1,0 +1,425 @@
+
+body {
+  margin: 0em;
+  font-family: Arial, serif;
+  font-size: 1em;
+  background: #121212;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.875em;
+}
+
+/* Header + navbar */
+
+header {
+  padding: 0.625em 2.5em;
+  background: #1f1f1f;  
+  align-items: center;
+}
+
+header h1 {
+  grid-column: span 6;
+  color: #e6e5e6;
+}
+
+header nav {
+  grid-column: 7 / span 6;
+  justify-self: end;
+}
+
+header nav a {
+  color: #e6e5e6;
+  margin-left: 0.625em;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f5670c;
+  text-decoration-thickness: 3px;
+}
+
+/* Main */
+
+main {
+  max-width: 75em;
+  margin: 3.75em auto;
+  padding: 1.25em;
+  color: #e6e5e6;
+}
+
+main.grid {
+  min-height: calc(100vh - 350px);
+}
+
+main img {
+  grid-column: span 6;
+  width: 100%;
+  border-radius: 0.375em;
+}
+
+main .welcome {
+  grid-column: 8 / span 5;
+}
+
+main > h2 {
+  grid-column: span 12;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 1.25em;
+}
+
+main .card {
+  grid-column: span 4;
+  background: #1d1d1d;
+  padding: 0.625em 1.25em;
+  border-radius: 0.375em;
+  height: 25em;
+}
+
+main .topp-tekst {
+  grid-column: span 12;
+  justify-self: center;
+  align-self: flex-start;
+  font-size: 2.5em;
+  margin-top: -2em;
+  text-decoration: underline;
+}
+
+main .img-events {
+  height: 21.25em;
+}
+
+h3.tekstfront {
+  text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+  background: #1f1f1f;
+  color: #e6e5e6;
+  padding: 1rem;
+}
+
+footer .left {
+  grid-column: 1 / span 4;
+  justify-self: start;
+  align-self: flex-end;
+}
+
+footer .center {
+  grid-column: 5 / span 4;
+  justify-self: center;
+  align-self: flex-end;
+  opacity: .4;
+}
+
+footer .right {
+  grid-column: 9 / span 4;
+  justify-self:flex-end;
+  align-self: flex-end;
+}
+
+.icon-style {
+  height: 1.875em;
+  margin-left: 0.94em;
+}
+
+
+/* Meny specific */
+
+
+main .frokost-tekst {
+  grid-column: span 12;
+  justify-self: center;
+  align-self: flex-start;
+  font-size: 1.8em;
+}
+
+main .img-events-menu {
+  height: 20.63em;
+}
+
+main .foodcard {
+  grid-column: span 4;
+  background: #1d1d1d;
+  padding: 0.625em 1.25em;
+  border-radius: 0.375em;
+  height: 28.125em;
+}
+
+main .drinkcard {
+  grid-column: span 3;
+  background: #1d1d1d;
+  padding: 0em 1.25em;
+  border-radius: 0.375em;
+  height: 19.1em;
+  width: 12.5em;
+}
+
+main .img-events-drink {
+  height: 12.5em;
+}
+
+.meny-allergener {
+  text-align: center;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+h3.cardtekst {
+  font-size: 1em;
+  text-align: center;
+}
+
+.pris {
+  font-size: 1.55em;
+  text-align: center;
+  text-decoration: solid;
+  margin-top: 0.94em;
+}
+
+.icon-allergen {
+  height: 1.25em;
+  width: 1.25em;
+}
+
+
+/* Booking specific */
+
+main .bookingcardinfo {
+  grid-column: 3 / span 4;
+  background: #1d1d1d;
+  padding: 0em 1.25em;
+  border-radius: 0.375em;
+  margin-top: -1.875em;
+  height: 28.125em;
+  outline: 3px dashed #ff822d;
+  outline-offset: -0.5em;
+  text-align: center;
+}
+
+main .bookingcardform {
+  grid-column: 7 / span 5;
+  background: #1d1d1d;
+  padding: 0em 1.25em;
+  border-radius: 0.375em;
+  margin-top: -1.875em;
+  height: 28.125em;
+  font-weight: 600;
+}
+
+main .heading-booking {
+  grid-column: span 12;
+  justify-self: center;
+  align-self: flex-start;
+  font-size: 2.5em;
+  margin-top: -2em;
+  text-decoration: underline;
+}
+
+main .infotext {
+  grid-column:  3 / span 8;
+  margin-top: -4.375em;
+  text-align: center;
+  margin-left: 3.125em;
+}
+
+.heading {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.063em;
+  text-align: center;
+}
+
+.heading-dager {
+  color: #ff822d;
+  font-size: 1.375em;
+}
+
+.heading-tlf {
+  font-size: 1.3125em;
+}
+
+.form-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #080808;
+  color: #fff;
+  display: inline-block;
+  padding: 0.3125em 1.19em;
+  margin: 3.125em 0.3125em 0.3125em 0em;
+  border-radius: 2em;
+  box-sizing: border-box;
+  width: 100%;
+  text-decoration: none;
+  font-size: 1.19em;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background-color: #ff822d;
+}
+
+
+/* Artikkel specific */
+
+main .artikkel1card {
+  grid-column: 3 / span 8;
+  background: #1d1d1d;
+  padding: 0.625em 1.25em;
+  border-radius: 0.375em;
+  line-height: 1.25em;
+  height: 27em;
+}
+
+main .artikkel2card {
+  grid-column: 3 / span 8;
+  background: #1d1d1d;
+  padding: 0.625em 1.25em;
+  border-radius: 0.375em;
+  line-height: 1.25em;
+  height: 31em;
+}
+
+h3.artikkel-heading {
+  text-align: center;
+}
+
+.artikkel-pic {
+  float: right;
+  width: 15.63em;
+  height: auto;
+}
+
+a {
+  color:#1bb9f8;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 965px) {
+  main img {
+    grid-column: 2 / span 10;
+  }
+
+  main .welcome {
+    grid-column: 3 / span 8;
+    text-align: center;
+  }
+
+  main .card {
+    grid-column: 3 / span 8;
+  }
+
+  main .foodcard {
+    grid-column: 3 / span 8;
+  }
+
+  main .drinkcard {
+    grid-column: 5 / span 8;
+  }
+
+  main .bookingcardinfo {
+    grid-column: 3 / span 8;
+  }
+
+  main .bookingcardform {
+    grid-column: 3 / span 8;
+    
+  }
+
+  main .infotext {
+    grid-column: 3 / span 8;
+    padding: 1.25em 0em;
+  }
+
+  main .artikkel1card {
+    grid-column: 3 / span 8;
+    height: 40em;
+}
+
+main .artikkel2card {
+  grid-column: 3 / span 8;
+  height: 50em;
+}
+
+}
+
+@media screen and (min-width: 970px) and (max-width: 1190px) {
+
+  main .artikkel1card {
+    grid-column: 3 / span 8;
+    height: 33em;
+}
+
+  main .artikkel2card {
+  grid-column: 3 / span 8;
+  height: 40em;
+}
+}
+
+@media screen and (max-width: 824px) {
+  main .artikkel1card {
+    grid-column: 3 / span 8;
+    height: 45em;
+}
+
+  main .artikkel2card {
+  grid-column: 3 / span 8;
+  height: 53em;
+}
+}
+
+@media screen and (max-width: 750px) {
+  main .artikkel1card {
+    grid-column: 3 / span 8;
+    height: 60em;
+}
+
+  main .artikkel2card {
+  grid-column: 3 / span 8;
+  height: 70em;
+}
+}
+
+@media screen and (max-width: 590px) {
+  main .artikkel1card {
+    grid-column: 3 / span 8;
+    height: 75em;
+}
+
+  main .artikkel2card {
+  grid-column: 3 / span 8;
+  height: 88em;
+}
+}
+
+
+
+/*For larger than full HD screens*/
+
+@media screen and (min-height: 1201px) {
+  main .infotext {
+    margin-top: -22em;
+  }
+
+  main .bookingcardinfo {
+    margin-top: -30em;
+  }
+
+  main .bookingcardform {
+    margin-top: -30em; 
+  }
+
+}
